@@ -291,7 +291,7 @@ function makeMIDIKeyboard(device) {
 
     mdiv.removeChild(document.getElementById("no-midi-label"));
 
-    const midiNotes = [49, 52, 56, 63];
+    const midiNotes = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     midiNotes.forEach(note => {
         const key = document.createElement("div");
         const label = document.createElement("p");
